@@ -1,6 +1,6 @@
 """下线管理工具处理器"""
 
-from typing import Any
+from typing import Any, Dict
 
 from maibot_sdk import Tool
 from maibot_sdk.types import ToolParameterInfo, ToolParamType
