@@ -1,0 +1,4 @@
+{
+  "name": "麦麦主动下线",
+  "description": "Planner 可主动调用 go_offline 工具下线，离线期间消息正常入库、学习管线继续运行，仅移除 Planner 回复类工具。支持 @ 唤醒和命令控制。"
+}

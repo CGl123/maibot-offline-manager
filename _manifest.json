@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "麦麦主动下线",
+  "description": "Planner 可调用 go_offline 工具主动下线，离线期间消息正常入库、学习管线继续运行，仅拦截出站回复和 Planner 工具。@提及可选择唤醒，管理员可通过 /offline_force 和 /offline_wake 控制。",
+  "author": {
+    "name": "CGl123",
+    "url": "https://github.com/CGl123"
+  },
+  "license": "GPL-v3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/CGl123/maibot-offline-manager",
+    "homepage": "https://github.com/CGl123/maibot-offline-manager",
+    "documentation": "https://github.com/CGl123/maibot-offline-manager",
+    "issues": "https://github.com/CGl123/maibot-offline-manager/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.10",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.4.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "tool.invoke",
+    "hook.subscribe",
+    "send.text",
+    "config.get"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "locales_path": "i18n",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "id": "maibot-offline-manager"
+}
